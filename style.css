@@ -225,13 +225,13 @@ body {
   justify-content: center;
   position: relative;
   z-index: 3;
+  min-height: 420px;
 }
 #bloch-sphere {
-  width: 100%;
-  max-width: 440px;
-  height: auto;
   display: block;
-  filter: drop-shadow(0 0 30px rgba(0,229,255,0.15));
+  width: 420px;
+  height: 420px;
+  filter: drop-shadow(0 0 40px rgba(0,229,255,0.2));
 }
 .bloch-caption {
   margin-top: 0.75rem;
