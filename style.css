@@ -255,10 +255,11 @@ body {
 }
 .hero-name {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(2.2rem, 4.5vw, 4rem);
+  font-size: clamp(1.6rem, 2.8vw, 2.9rem);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
   margin-bottom: 1rem;
+  white-space: nowrap;
 }
 .name-text {
   background: linear-gradient(135deg, #fff 0%, var(--accent-cyan) 60%, var(--accent-purple) 100%);
@@ -716,6 +717,7 @@ body {
   .ref-grid      { grid-template-columns: 1fr; }
 }
 @media (max-width: 480px) {
+  .hero-name  { white-space: normal; font-size: clamp(1.4rem, 6vw, 2rem); }
   .hero-stats { gap: 1.5rem; }
   .pub-item   { grid-template-columns: 1fr; }
   .pub-year   { font-size: 1rem; }
