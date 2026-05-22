@@ -265,8 +265,9 @@ body {
   background-clip: text;
 }
 .phd-tag {
-  font-weight: 300;
-  opacity: 0.85;
+  font-weight: 600;
+  -webkit-text-fill-color: var(--accent-cyan);
+  color: var(--accent-cyan);
 }
 .hero-tagline {
   font-size: 1.1rem;
