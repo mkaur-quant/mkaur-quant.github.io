@@ -257,8 +257,10 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   font-size: clamp(2.2rem, 4.5vw, 4rem);
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.15;
   margin-bottom: 1rem;
+}
+.name-text {
   background: linear-gradient(135deg, #fff 0%, var(--accent-cyan) 60%, var(--accent-purple) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -266,8 +268,8 @@ body {
 }
 .phd-tag {
   font-weight: 600;
-  -webkit-text-fill-color: var(--accent-cyan);
   color: var(--accent-cyan);
+  -webkit-text-fill-color: var(--accent-cyan);
 }
 .hero-tagline {
   font-size: 1.1rem;
