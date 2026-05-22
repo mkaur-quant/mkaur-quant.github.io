@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Manpreet Kaur | Quantum Materials Researcher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- ===== QUANTUM CANVAS BACKGROUND ===== -->
+<canvas id="quantum-canvas"></canvas>
+
+<!-- ===== NAVIGATION ===== -->
+<nav id="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">MK<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Postdoctoral Researcher · IISc Bengaluru</div>
+    <h1 class="hero-name">Dr. Manpreet Kaur</h1>
+    <p class="hero-tagline">Exploring the quantum frontier of 2D van der Waals materials</p>
+    <p class="hero-sub">
+      Nanoscience · Single-Photon Emitters · 2D Heterostructures · Quantum Devices
+    </p>
+    <div class="hero-actions">
+      <a href="#research" class="btn btn-primary">View Research</a>
+      <a href="CV_Manpreet_Kaur.pdf" class="btn btn-outline" download>
+        <i class="fas fa-download"></i> Download CV
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Publications</span></div>
+      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Years Research</span></div>
+      <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Conferences</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="atom-ring ring-1"></div>
+    <div class="atom-ring ring-2"></div>
+    <div class="atom-ring ring-3"></div>
+    <div class="atom-core">
+      <div class="atom-nucleus"></div>
+    </div>
+    <div class="electron e1"></div>
+    <div class="electron e2"></div>
+    <div class="electron e3"></div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Who I Am</span>
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-lead">
+          I am a <strong>Postdoctoral Researcher</strong> at the Department of Physical Sciences,
+          Indian Institute of Science (IISc), Bengaluru, working at the intersection of
+          quantum photonics and two-dimensional materials.
+        </p>
+        <p>
+          My doctoral work at IISER Mohali &amp; INST Mohali focused on surface and interface
+          engineering of van der Waals 2D materials — from de-wrinkling black phosphorus with
+          electron beams to sculpting artificial edges for piezoelectric responses.
+        </p>
+        <p>
+          I combine cutting-edge nanofabrication (EBL, RIE) with optical and scanning probe
+          techniques (AFM/PFM/KPFM, low-temperature Raman, PL, TRPL, g² measurements) to
+          advance the field of quantum light sources in solid-state systems.
+        </p>
+        <div class="skills-chips">
+          <span class="chip">2D Materials</span>
+          <span class="chip">TEM / SEM</span>
+          <span class="chip">AFM / PFM / KPFM</span>
+          <span class="chip">Raman Spectroscopy</span>
+          <span class="chip">EBL / RIE</span>
+          <span class="chip">CVD Synthesis</span>
+          <span class="chip">Single-Photon Emitters</span>
+          <span class="chip">Van der Waals Heterostructures</span>
+          <span class="chip">Quantum Photonics</span>
+        </div>
+      </div>
+      <div class="about-timeline">
+        <h3>Education &amp; Experience</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">May 2025–Present</span>
+              <strong>Research Associate-I (Postdoc)</strong>
+              <span>Indian Institute of Science (IISc), Bengaluru</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">Nov 2024–Feb 2025</span>
+              <strong>Visiting Faculty</strong>
+              <span>Amity University Punjab, Mohali</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2019–2024</span>
+              <strong>Ph.D in Physical Sciences</strong>
+              <span>IISER Mohali &amp; INST Mohali</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2015–2017</span>
+              <strong>M.Sc in Physics</strong>
+              <span>Punjab Agricultural University, Ludhiana</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2012–2015</span>
+              <strong>B.Sc (Physics, Chemistry, Maths)</strong>
+              <span>Panjab University, Chandigarh</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RESEARCH SECTION ===== -->
+<section id="research" class="section research-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">What I Work On</span>
+      <h2 class="section-title">Current Research</h2>
+    </div>
+    <div class="research-grid">
+
+      <div class="research-card" data-delay="0">
+        <div class="card-icon"><i class="fas fa-atom"></i></div>
+        <h3>Single Photon Emission</h3>
+        <p>
+          Coupling photonic cavities and plasmonics to achieve high-brightness, ultra-pure
+          single-photon emission in 2D semiconductors.
+        </p>
+        <div class="card-tag">Quantum Photonics</div>
+      </div>
+
+      <div class="research-card" data-delay="100">
+        <div class="card-icon"><i class="fas fa-bolt"></i></div>
+        <h3>Electron Beam &amp; Transport</h3>
+        <p>
+          Studying the effect of electron beam irradiation on transport properties of
+          2D materials via FET measurements.
+        </p>
+        <div class="card-tag">Nanoelectronics</div>
+      </div>
+
+      <div class="research-card" data-delay="200">
+        <div class="card-icon"><i class="fas fa-wave-square"></i></div>
+        <h3>Raman Vibrational Modes</h3>
+        <p>
+          Exploring variations in Raman modes of 2D materials and their heterostructures
+          under electric field and strain.
+        </p>
+        <div class="card-tag">Spectroscopy</div>
+      </div>
+
+      <div class="research-card" data-delay="300">
+        <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+        <h3>Dipole–Dipole Interactions</h3>
+        <p>
+          Selectively enhancing weaker exciton emission via resonant dipole–dipole interaction
+          in hybrid 2D heterojunctions.
+        </p>
+        <div class="card-tag">Excitonic Physics</div>
+      </div>
+
+      <div class="research-card" data-delay="400">
+        <div class="card-icon"><i class="fas fa-thermometer-half"></i></div>
+        <h3>Bolometric Response</h3>
+        <p>
+          Room-temperature bolometric response in RGO-Chitosan hybrids via defect-assisted
+          electron–phonon scattering.
+        </p>
+        <div class="card-tag">Sensors</div>
+      </div>
+
+      <div class="research-card" data-delay="500">
+        <div class="card-icon"><i class="fas fa-microscope"></i></div>
+        <h3>Biomarker Detection</h3>
+        <p>
+          Detecting sepsis biomarkers through Raman spectroscopy signature peak identification.
+        </p>
+        <div class="card-tag">Bio-Nanotechnology</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== PUBLICATIONS SECTION ===== -->
+<section id="publications" class="section pub-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Academic Output</span>
+      <h2 class="section-title">Selected Publications</h2>
+      <p class="section-desc">
+        Reviewer for IOP, ACS Omega, Materials Research Express, Engineering Research Express, Nano Futures.
+        Member of MRS, APS, and ACS.
+      </p>
+    </div>
+    <div class="pub-list">
+
+      <div class="pub-item featured">
+        <div class="pub-year">2025</div>
+        <div class="pub-body">
+          <span class="pub-badge">First Author</span>
+          <p class="pub-title">Gate Dielectric-Induced Lattice Strain and Band Gap Tuning in Van der Waals 2D Semiconducting Channel</p>
+          <p class="pub-authors">Manpreet Kaur, Km Neeshu, Jyoti Saini, Sushree Tapaswini Dash, Akash Kumar Maharana, Kiran S. Hazra</p>
+          <p class="pub-journal"><em>Nanoscale</em>, 17, 8872–8879</p>
+        </div>
+      </div>
+
+      <div class="pub-item featured">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
+          <span class="pub-badge">First Author</span>
+          <p class="pub-title">Facet Engineering by Sculpting Artificial Edges on 2D Black Phosphorus for Localized and Selective Piezoelectric Response</p>
+          <p class="pub-authors">Manpreet Kaur, Pradip Nandi, Mamta Raturi, et al.</p>
+          <p class="pub-journal"><em>ACS Applied Nano Materials</em>, 7, 6159–6168</p>
+        </div>
+      </div>
+
+      <div class="pub-item featured">
+        <div class="pub-year">2022</div>
+        <div class="pub-body">
+          <span class="pub-badge">First Author · Cover Issue</span>
+          <p class="pub-title">Electron Beam as Straightener to De-Wrinkle Large 2D Black Phosphorus Flake: An In Situ TEM Monitoring</p>
+          <p class="pub-authors">Manpreet Kaur, Himanshu Tyagi, Anirban Kundu, et al.</p>
+          <p class="pub-journal"><em>Advanced Materials Interfaces</em>, 9, 2201320 <strong>(Cover Issue)</strong></p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2025</div>
+        <div class="pub-body">
+          <p class="pub-title">Room Temperature Bolometric Response in Nitro-Boosted rGO</p>
+          <p class="pub-authors">Jyoti Saini, Mamta Raturi, <strong>Manpreet Kaur</strong>, et al.</p>
+          <p class="pub-journal"><em>Langmuir</em>, 41, 5634–5646</p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
+          <p class="pub-title">Resonant Dipole–Dipole Interaction: A Protocol to Amplify Weaker PL Emission in 2D MoS₂</p>
+          <p class="pub-authors">Km Neeshu, Himanshu Tyagi, …, <strong>Manpreet Kaur</strong>, et al.</p>
+          <p class="pub-journal"><em>ACS Applied Electronic Materials</em>, 6, 6493–6502</p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
+          <p class="pub-title">2D MoS₂ Plasmonic Nanocavity Based SERS Platform for Bilirubin Detection</p>
+          <p class="pub-authors">Akash Kumar Maharana, …, <strong>Manpreet Kaur</strong>, et al.</p>
+          <p class="pub-journal"><em>Applied Physics Letters</em>, 125, 143701</p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2022</div>
+        <div class="pub-body">
+          <p class="pub-title">Nanoscale Probing of Surface Potential Landscape at MoS₂/BP van der Waals p–n Heterojunction</p>
+          <p class="pub-authors">Mamta Raturi, …, <strong>Manpreet Kaur</strong>, et al.</p>
+          <p class="pub-journal"><em>Nanotechnology</em>, 34, 095702</p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2021</div>
+        <div class="pub-body">
+          <span class="pub-badge">First Author</span>
+          <p class="pub-title">Facile Synthesis of Graphene Oxide Nanocomposite Membranes for Effective Removal of As(III) from Water</p>
+          <p class="pub-authors">Manpreet Kaur, Kiran Jeet, Manpreet Kaur</p>
+          <p class="pub-journal"><em>Journal of Nanoscience and Nanotechnology</em>, 21, 3596–3610</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pub-links">
+      <a href="https://www.researchgate.net/profile/Manpreet-Kaur-386/research" target="_blank" rel="noopener" class="btn btn-outline">
+        <i class="fas fa-external-link-alt"></i> ResearchGate Profile
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VIDEO DEMO SECTION ===== -->
+<section id="demo" class="section demo-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">In Action</span>
+      <h2 class="section-title">Single-Photon Emission Demo</h2>
+      <p class="section-desc">
+        A demonstration of ultra-pure single-photon emission from 2D semiconductor systems —
+        a cornerstone capability for quantum communication and quantum computing.
+      </p>
+    </div>
+    <div class="video-wrapper">
+      <video controls poster="" preload="metadata" class="demo-video">
+        <source src="Single_photon_demo.mp4" type="video/mp4" />
+        Your browser does not support the video element.
+      </video>
+      <div class="video-caption">
+        <i class="fas fa-play-circle"></i>
+        Single-photon emission demonstration from 2D semiconductor heterostructures
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AWARDS & MEMBERSHIPS ===== -->
+<section id="awards" class="section awards-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Recognition</span>
+      <h2 class="section-title">Awards &amp; Memberships</h2>
+    </div>
+    <div class="awards-grid">
+      <div class="award-card">
+        <i class="fas fa-certificate"></i>
+        <h4>IOP Trusted Reviewer</h4>
+        <p>IOP Peer Review Excellence Certificate, 2024</p>
+      </div>
+      <div class="award-card">
+        <i class="fas fa-trophy"></i>
+        <h4>Best Oral Presentation</h4>
+        <p>ISRAPS Symposium, IIT Ropar, 2023</p>
+      </div>
+      <div class="award-card">
+        <i class="fas fa-flask"></i>
+        <h4>ACS Reviewer Lab</h4>
+        <p>Certificate of Completion, American Chemical Society, 2023</p>
+      </div>
+      <div class="award-card">
+        <i class="fas fa-graduation-cap"></i>
+        <h4>GATE Qualified</h4>
+        <p>Graduate Aptitude Test in Engineering, 2019</p>
+      </div>
+      <div class="award-card">
+        <i class="fas fa-plane"></i>
+        <h4>CSIR Travel Grant</h4>
+        <p>Foreign Travel Grant for 2023 E-MRS Spring Meeting (₹1.2L)</p>
+      </div>
+      <div class="award-card">
+        <i class="fas fa-users"></i>
+        <h4>Society Memberships</h4>
+        <p>MRS · APS · ACS</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:manpreetpurba.physics@gmail.com">manpreetpurba.physics@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Address</strong>
+            <span>Department of Physical Sciences, IISc, Bengaluru, Karnataka, India</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:+919914676891">+91 99146 76891</a>
+          </div>
+        </div>
+        <div class="contact-social">
+          <a href="https://www.researchgate.net/profile/Manpreet-Kaur-386/research" target="_blank" rel="noopener" class="social-btn" title="ResearchGate">
+            <i class="fas fa-flask"></i>
+          </a>
+          <a href="https://github.com/mkaur-quant" target="_blank" rel="noopener" class="social-btn" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:manpreetpurba.physics@gmail.com" class="social-btn" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="contact-card">
+        <h3>Thesis</h3>
+        <p class="thesis-title">
+          "Unlocking the Potential of Van der Waals 2D Materials: A Surface and Interface Engineering Approach"
+        </p>
+        <p>Ph.D · IISER Mohali &amp; INST Mohali · 2019–2024</p>
+        <div class="ref-list">
+          <h4>References</h4>
+          <div class="ref-item">
+            <strong>Dr. Kiran Shankar Hazra</strong><br/>
+            Scientist-E, INST Mohali<br/>
+            <a href="mailto:kiran@inst.ac.in">kiran@inst.ac.in</a>
+          </div>
+          <div class="ref-item">
+            <strong>Dr. Vivek Bagchi</strong><br/>
+            Scientist-E, INST Mohali<br/>
+            <a href="mailto:bagchiv@inst.ac.in">bagchiv@inst.ac.in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 Dr. Manpreet Kaur · Department of Physical Sciences, IISc Bengaluru</p>
+    <p class="footer-sub">Built with curiosity and quantum inspiration</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
